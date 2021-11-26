@@ -42,7 +42,7 @@ body {
 
 .section-center {
     background-color: rgb(168, 220, 236);
-    width: 709px;
+    width: 57%;
     height: 82%;
     float: left;
     margin: 10px;
@@ -58,9 +58,11 @@ body {
     margin-top: 10px;
 }
 
-.clearfix {
+.clearfix::after {
+    content: "";
     clear: both;
-}
+    display: table;
+  }
 
 .purple-footer {
     background-color: rgb(123, 35, 141);
