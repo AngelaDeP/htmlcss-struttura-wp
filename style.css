@@ -35,16 +35,16 @@ body {
 .section-left {
     background-color: rgb(168, 220, 236);
     width: 20%;
-    height: 300px;
+    height: 400px;
     float: left;
     margin-top: 10px;
-    margin-right: 18px;
+    margin-right: 2%;
 }
 
 .section-center {
     background-color: rgb(168, 220, 236);
-    width: 57%;
-    height: 300px;
+    width: 56%;
+    height: 400px;
     float: left;
     margin-top: 10px;
 }
@@ -52,13 +52,13 @@ body {
 .section-right {
     background-color: rgb(168, 220, 236);
     width: 20%;
-    height: 300px;
+    height: 400px;
     float: left;
     margin-top: 10px;
-    margin-left: 18px;
+    margin-left: 2%;
 }
 
-.clearfix::after {
+.second-section .clearfix::after {
     content:"";
     clear: both;
     display: table;
