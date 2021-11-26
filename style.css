@@ -17,3 +17,17 @@ body {
     height: 500px;
     margin-top: 10px;
 }
+
+.blue-space {
+    background-color: rgb(58, 69, 226);
+    width: 100%;
+    height: 500px;
+    margin-top: 10px;
+}
+
+.purple-footer {
+    background-color: rgb(123, 35, 141);
+    width: 100%;
+    height: 50px;
+    margin: 10px 0;
+}
