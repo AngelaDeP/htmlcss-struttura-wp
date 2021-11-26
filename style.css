@@ -35,30 +35,31 @@ body {
 .section-left {
     background-color: rgb(168, 220, 236);
     width: 20%;
-    height: 82%;
+    height: 300px;
     float: left;
     margin-top: 10px;
+    margin-right: 18px;
 }
 
 .section-center {
     background-color: rgb(168, 220, 236);
-    width: 58%;
-    height: 82%;
+    width: 57%;
+    height: 300px;
     float: left;
-    margin: 10px;
-    display: inline-block;
-    position: absolute;
+    margin-top: 10px;
 }
 
 .section-right {
     background-color: rgb(168, 220, 236);
     width: 20%;
-    height: 82%;
-    float: right;
+    height: 300px;
+    float: left;
     margin-top: 10px;
+    margin-left: 18px;
 }
 
 .clearfix::after {
+    content:"";
     clear: both;
     display: table;
   }
